@@ -1,35 +1,22 @@
-#Stepwise Classification
+##Stepwise Classification
 
-1 Python and numpy
+Python and numpy
 We practice some Matrix operations and solve the basic 14 problems using numpy N dimensional array matrices 
 
 1. Given matrices A and B, compute and return an expression for A + B. [ 2 pts ]
-
 2. Given matrices A, B, and C, compute and return AB − C (i.e., right-multiply matrix A by matrix B, and then subtract C). Use dot or np.dot. [ 2 pts ]
-
 3. Given matrices A, B, and C, return AB + C>, where represents the element-wise (Hadamard) product and > represents matrix transpose. In numpy, the element-wise product is obtained simply with *. [2pts]
-
 4. Given column vectors x and y, compute the inner product of x and y (i.e., x>y). [2 pts]
-
 5. Given matrix A, return a matrix with the same dimensions as A but that contains all zeros. Use np.zeros. [ 2 pts ]
-
 6. Given matrix A, return a vector with the same number of rows as A but that contains all ones. Use
 np.ones. [ 2 pts ]
-
 7. Given (invertible) matrix A, compute A−1. [ 2 pts ]
-
-8. Given square matrix A and (scalar) α, compute A + αI, where I is the identity matrix with the same dimensions as A. Use np.eye. [ 2 pts ]
-
+8. Given square matrix A and (scalar) α, compute A + αI, where I is the identity matrix with the same dimensions as A. Use np.eye.[2pts]
 9. Given matrix A and integers i, j, return the jth column of the ith row of A, i.e., Aij . [ 2 pts ]
-
 10. Given matrix A and integer i, return the sum of all the entries in the ith row, i.e., Pj Aij . Do not use a loop, which in Python is very slow. Instead use the np.sum function. [ 4 pts ]
-
 11. Given matrix A and scalars c, d, compute the arithmetic mean over all entries of A that are betweenc and d (inclusive). In other words, if S = {(i, j) : c ≤ Aij ≤ d}, then compute 1 |S| P (i,j)∈S Aij . Use np.nonzero along with np.mean. [ 5 pts ]
-
 12. Given an (n × n) matrix A and integer k, return an (n × k) matrix containing the right-eigenvectors of A corresponding to the k largest eigenvalues of A. Use np.linalg.eig to compute eigenvectors. [5 pts ]
-
 13. Given square matrix A and column vector x, use np.linalg.solve to compute A−1x. [ 4 pts ]
-
 14. Given square matrix A and row vector x, use np.linalg.solve to compute xA−1. Hint: AB =(B>A>)>. [ 4 pts ]
 
 
