@@ -1,0 +1,25 @@
+Training Model with 400 image samples.
+predictors selected[(20, 17, 17, 7), (13, 4, 11, 14), (21, 8, 16, 8), (12, 5, 16, 17), (10, 6, 12, 6)]
+Training Accuracy of model on Training Data
+accuracy with 400 samples = 0.7355
+Training Model with 800 image samples.
+predictors selected[(20, 7, 17, 7), (13, 5, 11, 13), (18, 12, 16, 17), (12, 19, 10, 14), (19, 9, 13, 17)]
+Training Accuracy of model on Training Data
+accuracy with 800 samples = 0.7675
+Training Model with 1200 image samples.
+predictors selected[(20, 7, 17, 7), (13, 5, 11, 13), (20, 17, 16, 17), (12, 19, 12, 13), (10, 7, 14, 7)]
+Training Accuracy of model on Training Data
+accuracy with 1200 samples = 0.779
+Training Model with 1600 image samples.
+predictors selected[(20, 7, 17, 7), (13, 6, 16, 17), (18, 12, 16, 7), (13, 5, 0, 19), (19, 12, 15, 17)]
+Training Accuracy of model on Training Data
+accuracy with 1600 samples = 0.7755
+Training Model with 2000 image samples.
+predictors selected[(20, 7, 17, 7), (12, 5, 10, 13), (20, 17, 16, 17), (11, 19, 12, 12), (19, 11, 14, 7)]
+Training Accuracy of model on Training Data
+accuracy with 2000 samples = 0.7825
+Training with all the samples completed.
+Final Predictors selected:
+[(20, 7, 17, 7), (12, 5, 10, 13), (20, 17, 16, 17), (11, 19, 12, 12), (19, 11, 14, 7)]
+Testing Accuracy of model on Testing Faces
+Final Accuracy of model = 0.764223194748

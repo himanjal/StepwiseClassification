@@ -1,0 +1,9 @@
+Training Model with 2000 image samples.
+predictors selected[(20, 7, 17, 7), (12, 5, 10, 13), (20, 17, 16, 17), (11, 19, 12, 12), (19, 11, 14, 7)]
+Training Accuracy of model on Training Data
+Training accuracy with 2000 samples = 0.7825
+Testing Accuracy with 2000 samples = 0.764223194748
+Final Accuracy of model = 0.764223194748
+Training with all the samples completed.
+Final Predictors selected:
+[(20, 7, 17, 7), (12, 5, 10, 13), (20, 17, 16, 17), (11, 19, 12, 12), (19, 11, 14, 7)]
