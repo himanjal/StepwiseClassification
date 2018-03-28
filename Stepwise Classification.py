@@ -100,10 +100,11 @@ def loadData (which):
     faces = np.load("{}ingFaces.npy".format(which))
     faces = faces.reshape(-1, 24, 24)  # Reshape from 576 to 24x24
     labels = np.load("{}ingLabels.npy".format(which))
+    print labels[0]
     return faces, labels
 
 def trainModel(trainingFaces,trainingLabels,testingFaces, testingLabels):
-	samples = [400,800,1200,1600,2000]
+	samples = [1000]#[400,800,1200,1600,2000]
 
 	predictors = []
 	for sampleNo in samples:
@@ -148,7 +149,7 @@ if __name__ == "__main__":
     #predictors = stepwiseRegression(trainingFaces[:2000],trainingLabels[:2000],testingFaces,testingLabels)
     #predictors = [(20, 7, 17, 7), (13, 5, 11, 13), (20, 17, 16, 17), (12, 19, 12, 13), (10, 5, 14, 7), (13, 5, 15, 16), (22, 6, 16, 6), (12, 5, 11, 13), (18, 14, 14, 17), (3, 8, 2, 19)]
     #print predictors
-    trainModel(trainingFaces,trainingLabels,testingFaces,testingLabels)
+    #trainModel(trainingFaces,trainingLabels,testingFaces,testingLabels)
     
     if logging:
     	with open("LogFile.txt", 'w') as fh:
